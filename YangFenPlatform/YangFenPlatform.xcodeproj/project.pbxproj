@@ -7,15 +7,30 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		475D88FCBA0F5A5A2914DF29 /* libPods-YangFenPlatform.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2140510E04EF132C779CA9DB /* libPods-YangFenPlatform.a */; };
 		4C5C139B1E5D2738008BB182 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C5C139A1E5D2738008BB182 /* main.m */; };
 		4C5C139E1E5D2738008BB182 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C5C139D1E5D2738008BB182 /* AppDelegate.m */; };
 		4C5C13A11E5D2738008BB182 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C5C13A01E5D2738008BB182 /* ViewController.m */; };
 		4C5C13A41E5D2738008BB182 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4C5C13A21E5D2738008BB182 /* Main.storyboard */; };
 		4C5C13A61E5D2738008BB182 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4C5C13A51E5D2738008BB182 /* Assets.xcassets */; };
 		4C5C13A91E5D2738008BB182 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4C5C13A71E5D2738008BB182 /* LaunchScreen.storyboard */; };
+		4C5C13CB1E5D2A91008BB182 /* BasicNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C5C13CA1E5D2A91008BB182 /* BasicNavigationController.m */; };
+		4C5C13CE1E5D2AD8008BB182 /* BasicTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C5C13CD1E5D2AD8008BB182 /* BasicTabBarController.m */; };
+		4C5C13D11E5D2AF4008BB182 /* BasicViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C5C13D01E5D2AF4008BB182 /* BasicViewController.m */; };
+		4C5C13DF1E5D2F12008BB182 /* UIViewController+alvertVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C5C13DD1E5D2F12008BB182 /* UIViewController+alvertVC.m */; };
+		4C5C13E41E5D2F1E008BB182 /* NSString+MD5.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C5C13E11E5D2F1E008BB182 /* NSString+MD5.m */; };
+		4C5C13E51E5D2F1E008BB182 /* NSString+RandomStr.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C5C13E31E5D2F1E008BB182 /* NSString+RandomStr.m */; };
+		4C5C13E81E5D2F31008BB182 /* UIImage+color.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C5C13E61E5D2F31008BB182 /* UIImage+color.m */; };
+		4C5C13EB1E5D2F5D008BB182 /* UIImage+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C5C13EA1E5D2F5D008BB182 /* UIImage+Extension.m */; };
+		4C5C13EE1E5D2F70008BB182 /* UIView+Utils.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C5C13ED1E5D2F70008BB182 /* UIView+Utils.m */; };
+		4C5C13F41E5D30D1008BB182 /* UIColor+HexColor.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C5C13F21E5D30D1008BB182 /* UIColor+HexColor.m */; };
+		4C5C13F71E5D32D4008BB182 /* NetWorkingTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C5C13F61E5D32D4008BB182 /* NetWorkingTool.m */; };
+		4C5C13F91E5D3448008BB182 /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = 4C5C13F81E5D3448008BB182 /* Podfile */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		174E198B516EC35AE789338A /* Pods-YangFenPlatform.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YangFenPlatform.release.xcconfig"; path = "Pods/Target Support Files/Pods-YangFenPlatform/Pods-YangFenPlatform.release.xcconfig"; sourceTree = "<group>"; };
+		2140510E04EF132C779CA9DB /* libPods-YangFenPlatform.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-YangFenPlatform.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4C5C13961E5D2738008BB182 /* YangFenPlatform.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YangFenPlatform.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4C5C139A1E5D2738008BB182 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		4C5C139C1E5D2738008BB182 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -26,6 +41,32 @@
 		4C5C13A51E5D2738008BB182 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4C5C13A81E5D2738008BB182 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4C5C13AA1E5D2738008BB182 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4C5C13C91E5D2A91008BB182 /* BasicNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BasicNavigationController.h; sourceTree = "<group>"; };
+		4C5C13CA1E5D2A91008BB182 /* BasicNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BasicNavigationController.m; sourceTree = "<group>"; };
+		4C5C13CC1E5D2AD8008BB182 /* BasicTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BasicTabBarController.h; sourceTree = "<group>"; };
+		4C5C13CD1E5D2AD8008BB182 /* BasicTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BasicTabBarController.m; sourceTree = "<group>"; };
+		4C5C13CF1E5D2AF4008BB182 /* BasicViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BasicViewController.h; sourceTree = "<group>"; };
+		4C5C13D01E5D2AF4008BB182 /* BasicViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BasicViewController.m; sourceTree = "<group>"; };
+		4C5C13DC1E5D2F12008BB182 /* UIViewController+alvertVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+alvertVC.h"; sourceTree = "<group>"; };
+		4C5C13DD1E5D2F12008BB182 /* UIViewController+alvertVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+alvertVC.m"; sourceTree = "<group>"; };
+		4C5C13E01E5D2F1E008BB182 /* NSString+MD5.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+MD5.h"; sourceTree = "<group>"; };
+		4C5C13E11E5D2F1E008BB182 /* NSString+MD5.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+MD5.m"; sourceTree = "<group>"; };
+		4C5C13E21E5D2F1E008BB182 /* NSString+RandomStr.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+RandomStr.h"; sourceTree = "<group>"; };
+		4C5C13E31E5D2F1E008BB182 /* NSString+RandomStr.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+RandomStr.m"; sourceTree = "<group>"; };
+		4C5C13E61E5D2F31008BB182 /* UIImage+color.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+color.m"; sourceTree = "<group>"; };
+		4C5C13E71E5D2F31008BB182 /* UIImage+color.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+color.h"; sourceTree = "<group>"; };
+		4C5C13E91E5D2F5D008BB182 /* UIImage+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Extension.h"; sourceTree = "<group>"; };
+		4C5C13EA1E5D2F5D008BB182 /* UIImage+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Extension.m"; sourceTree = "<group>"; };
+		4C5C13EC1E5D2F70008BB182 /* UIView+Utils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Utils.h"; sourceTree = "<group>"; };
+		4C5C13ED1E5D2F70008BB182 /* UIView+Utils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Utils.m"; sourceTree = "<group>"; };
+		4C5C13F01E5D2FF1008BB182 /* Utils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Utils.h; sourceTree = "<group>"; };
+		4C5C13F11E5D3013008BB182 /* Extensions.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Extensions.h; sourceTree = "<group>"; };
+		4C5C13F21E5D30D1008BB182 /* UIColor+HexColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+HexColor.m"; sourceTree = "<group>"; };
+		4C5C13F31E5D30D1008BB182 /* UIColor+HexColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+HexColor.h"; sourceTree = "<group>"; };
+		4C5C13F51E5D32D4008BB182 /* NetWorkingTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NetWorkingTool.h; sourceTree = "<group>"; };
+		4C5C13F61E5D32D4008BB182 /* NetWorkingTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NetWorkingTool.m; sourceTree = "<group>"; };
+		4C5C13F81E5D3448008BB182 /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		6396EFD72884AD0A58561DE9 /* Pods-YangFenPlatform.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YangFenPlatform.debug.xcconfig"; path = "Pods/Target Support Files/Pods-YangFenPlatform/Pods-YangFenPlatform.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,17 +74,38 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				475D88FCBA0F5A5A2914DF29 /* libPods-YangFenPlatform.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		10CF6B6CA97797F0034EC5C3 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6396EFD72884AD0A58561DE9 /* Pods-YangFenPlatform.debug.xcconfig */,
+				174E198B516EC35AE789338A /* Pods-YangFenPlatform.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		3ADA3A5A8E43E141E4F7DD48 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2140510E04EF132C779CA9DB /* libPods-YangFenPlatform.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		4C5C138D1E5D2738008BB182 = {
 			isa = PBXGroup;
 			children = (
+				4C5C13F81E5D3448008BB182 /* Podfile */,
 				4C5C13981E5D2738008BB182 /* YangFenPlatform */,
 				4C5C13971E5D2738008BB182 /* Products */,
+				10CF6B6CA97797F0034EC5C3 /* Pods */,
+				3ADA3A5A8E43E141E4F7DD48 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,6 +120,7 @@
 		4C5C13981E5D2738008BB182 /* YangFenPlatform */ = {
 			isa = PBXGroup;
 			children = (
+				4C5C13B01E5D2A4D008BB182 /* Classes */,
 				4C5C139C1E5D2738008BB182 /* AppDelegate.h */,
 				4C5C139D1E5D2738008BB182 /* AppDelegate.m */,
 				4C5C139F1E5D2738008BB182 /* ViewController.h */,
@@ -79,6 +142,277 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		4C5C13B01E5D2A4D008BB182 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				4C5C13B11E5D2A4D008BB182 /* Basic */,
+				4C5C13B51E5D2A4D008BB182 /* Home */,
+				4C5C13B91E5D2A4D008BB182 /* Login */,
+				4C5C13BD1E5D2A4D008BB182 /* Personal */,
+				4C5C13C11E5D2A4D008BB182 /* Setting */,
+				4C5C13C21E5D2A4D008BB182 /* Tools */,
+				4C5C13C51E5D2A4D008BB182 /* WebView */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		4C5C13B11E5D2A4D008BB182 /* Basic */ = {
+			isa = PBXGroup;
+			children = (
+				4C5C13B21E5D2A4D008BB182 /* Controller */,
+				4C5C13B31E5D2A4D008BB182 /* Model */,
+				4C5C13B41E5D2A4D008BB182 /* View */,
+			);
+			path = Basic;
+			sourceTree = "<group>";
+		};
+		4C5C13B21E5D2A4D008BB182 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				4C5C13C91E5D2A91008BB182 /* BasicNavigationController.h */,
+				4C5C13CA1E5D2A91008BB182 /* BasicNavigationController.m */,
+				4C5C13CC1E5D2AD8008BB182 /* BasicTabBarController.h */,
+				4C5C13CD1E5D2AD8008BB182 /* BasicTabBarController.m */,
+				4C5C13CF1E5D2AF4008BB182 /* BasicViewController.h */,
+				4C5C13D01E5D2AF4008BB182 /* BasicViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		4C5C13B31E5D2A4D008BB182 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		4C5C13B41E5D2A4D008BB182 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		4C5C13B51E5D2A4D008BB182 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				4C5C13B61E5D2A4D008BB182 /* Controller */,
+				4C5C13B71E5D2A4D008BB182 /* Model */,
+				4C5C13B81E5D2A4D008BB182 /* View */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		4C5C13B61E5D2A4D008BB182 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		4C5C13B71E5D2A4D008BB182 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		4C5C13B81E5D2A4D008BB182 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		4C5C13B91E5D2A4D008BB182 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				4C5C13BA1E5D2A4D008BB182 /* Controller */,
+				4C5C13BB1E5D2A4D008BB182 /* Model */,
+				4C5C13BC1E5D2A4D008BB182 /* View */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		4C5C13BA1E5D2A4D008BB182 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		4C5C13BB1E5D2A4D008BB182 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		4C5C13BC1E5D2A4D008BB182 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		4C5C13BD1E5D2A4D008BB182 /* Personal */ = {
+			isa = PBXGroup;
+			children = (
+				4C5C13BE1E5D2A4D008BB182 /* Controller */,
+				4C5C13BF1E5D2A4D008BB182 /* Model */,
+				4C5C13C01E5D2A4D008BB182 /* View */,
+			);
+			path = Personal;
+			sourceTree = "<group>";
+		};
+		4C5C13BE1E5D2A4D008BB182 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		4C5C13BF1E5D2A4D008BB182 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		4C5C13C01E5D2A4D008BB182 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		4C5C13C11E5D2A4D008BB182 /* Setting */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Setting;
+			sourceTree = "<group>";
+		};
+		4C5C13C21E5D2A4D008BB182 /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+				4C5C13C31E5D2A4D008BB182 /* Extensions */,
+				4C5C13C41E5D2A4D008BB182 /* NetworkTool */,
+			);
+			path = Tools;
+			sourceTree = "<group>";
+		};
+		4C5C13C31E5D2A4D008BB182 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				4C5C13F11E5D3013008BB182 /* Extensions.h */,
+				4C5C13EF1E5D2FD9008BB182 /* Untils */,
+				4C5C13D81E5D2F12008BB182 /* NSStringExtensions */,
+				4C5C13D91E5D2F12008BB182 /* UIImageExtensions */,
+				4C5C13DA1E5D2F12008BB182 /* UIColorExtensions */,
+				4C5C13DB1E5D2F12008BB182 /* UIViewControllerExtensions */,
+				4C5C13DE1E5D2F12008BB182 /* UIViewExtensions */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		4C5C13C41E5D2A4D008BB182 /* NetworkTool */ = {
+			isa = PBXGroup;
+			children = (
+				4C5C13F51E5D32D4008BB182 /* NetWorkingTool.h */,
+				4C5C13F61E5D32D4008BB182 /* NetWorkingTool.m */,
+			);
+			path = NetworkTool;
+			sourceTree = "<group>";
+		};
+		4C5C13C51E5D2A4D008BB182 /* WebView */ = {
+			isa = PBXGroup;
+			children = (
+				4C5C13C61E5D2A4D008BB182 /* Controller */,
+				4C5C13C71E5D2A4D008BB182 /* Model */,
+				4C5C13C81E5D2A4D008BB182 /* View */,
+			);
+			path = WebView;
+			sourceTree = "<group>";
+		};
+		4C5C13C61E5D2A4D008BB182 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		4C5C13C71E5D2A4D008BB182 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		4C5C13C81E5D2A4D008BB182 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		4C5C13D81E5D2F12008BB182 /* NSStringExtensions */ = {
+			isa = PBXGroup;
+			children = (
+				4C5C13E01E5D2F1E008BB182 /* NSString+MD5.h */,
+				4C5C13E11E5D2F1E008BB182 /* NSString+MD5.m */,
+				4C5C13E21E5D2F1E008BB182 /* NSString+RandomStr.h */,
+				4C5C13E31E5D2F1E008BB182 /* NSString+RandomStr.m */,
+			);
+			path = NSStringExtensions;
+			sourceTree = "<group>";
+		};
+		4C5C13D91E5D2F12008BB182 /* UIImageExtensions */ = {
+			isa = PBXGroup;
+			children = (
+				4C5C13E91E5D2F5D008BB182 /* UIImage+Extension.h */,
+				4C5C13EA1E5D2F5D008BB182 /* UIImage+Extension.m */,
+				4C5C13E61E5D2F31008BB182 /* UIImage+color.m */,
+				4C5C13E71E5D2F31008BB182 /* UIImage+color.h */,
+			);
+			path = UIImageExtensions;
+			sourceTree = "<group>";
+		};
+		4C5C13DA1E5D2F12008BB182 /* UIColorExtensions */ = {
+			isa = PBXGroup;
+			children = (
+				4C5C13F31E5D30D1008BB182 /* UIColor+HexColor.h */,
+				4C5C13F21E5D30D1008BB182 /* UIColor+HexColor.m */,
+			);
+			path = UIColorExtensions;
+			sourceTree = "<group>";
+		};
+		4C5C13DB1E5D2F12008BB182 /* UIViewControllerExtensions */ = {
+			isa = PBXGroup;
+			children = (
+				4C5C13DC1E5D2F12008BB182 /* UIViewController+alvertVC.h */,
+				4C5C13DD1E5D2F12008BB182 /* UIViewController+alvertVC.m */,
+			);
+			path = UIViewControllerExtensions;
+			sourceTree = "<group>";
+		};
+		4C5C13DE1E5D2F12008BB182 /* UIViewExtensions */ = {
+			isa = PBXGroup;
+			children = (
+				4C5C13EC1E5D2F70008BB182 /* UIView+Utils.h */,
+				4C5C13ED1E5D2F70008BB182 /* UIView+Utils.m */,
+			);
+			path = UIViewExtensions;
+			sourceTree = "<group>";
+		};
+		4C5C13EF1E5D2FD9008BB182 /* Untils */ = {
+			isa = PBXGroup;
+			children = (
+				4C5C13F01E5D2FF1008BB182 /* Utils.h */,
+			);
+			path = Untils;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -86,9 +420,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4C5C13AD1E5D2738008BB182 /* Build configuration list for PBXNativeTarget "YangFenPlatform" */;
 			buildPhases = (
+				E8AD8C182897DBD27D87B606 /* [CP] Check Pods Manifest.lock */,
 				4C5C13921E5D2738008BB182 /* Sources */,
 				4C5C13931E5D2738008BB182 /* Frameworks */,
 				4C5C13941E5D2738008BB182 /* Resources */,
+				B896BB6F9EC9C157B192A8DC /* [CP] Embed Pods Frameworks */,
+				3534FB024B04BF8B22C3FD06 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -140,20 +477,80 @@
 			files = (
 				4C5C13A91E5D2738008BB182 /* LaunchScreen.storyboard in Resources */,
 				4C5C13A61E5D2738008BB182 /* Assets.xcassets in Resources */,
+				4C5C13F91E5D3448008BB182 /* Podfile in Resources */,
 				4C5C13A41E5D2738008BB182 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		3534FB024B04BF8B22C3FD06 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-YangFenPlatform/Pods-YangFenPlatform-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B896BB6F9EC9C157B192A8DC /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-YangFenPlatform/Pods-YangFenPlatform-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E8AD8C182897DBD27D87B606 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		4C5C13921E5D2738008BB182 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4C5C13CB1E5D2A91008BB182 /* BasicNavigationController.m in Sources */,
+				4C5C13E51E5D2F1E008BB182 /* NSString+RandomStr.m in Sources */,
+				4C5C13F41E5D30D1008BB182 /* UIColor+HexColor.m in Sources */,
 				4C5C13A11E5D2738008BB182 /* ViewController.m in Sources */,
+				4C5C13E81E5D2F31008BB182 /* UIImage+color.m in Sources */,
+				4C5C13E41E5D2F1E008BB182 /* NSString+MD5.m in Sources */,
 				4C5C139E1E5D2738008BB182 /* AppDelegate.m in Sources */,
+				4C5C13EE1E5D2F70008BB182 /* UIView+Utils.m in Sources */,
+				4C5C13CE1E5D2AD8008BB182 /* BasicTabBarController.m in Sources */,
 				4C5C139B1E5D2738008BB182 /* main.m in Sources */,
+				4C5C13D11E5D2AF4008BB182 /* BasicViewController.m in Sources */,
+				4C5C13F71E5D32D4008BB182 /* NetWorkingTool.m in Sources */,
+				4C5C13EB1E5D2F5D008BB182 /* UIImage+Extension.m in Sources */,
+				4C5C13DF1E5D2F12008BB182 /* UIViewController+alvertVC.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -269,6 +666,7 @@
 		};
 		4C5C13AE1E5D2738008BB182 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6396EFD72884AD0A58561DE9 /* Pods-YangFenPlatform.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 623ZPWL2RC;
@@ -281,6 +679,7 @@
 		};
 		4C5C13AF1E5D2738008BB182 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 174E198B516EC35AE789338A /* Pods-YangFenPlatform.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 623ZPWL2RC;
@@ -310,6 +709,7 @@
 				4C5C13AF1E5D2738008BB182 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
