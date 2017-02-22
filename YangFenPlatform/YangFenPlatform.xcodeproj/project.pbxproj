@@ -26,6 +26,7 @@
 		4C5C13F41E5D30D1008BB182 /* UIColor+HexColor.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C5C13F21E5D30D1008BB182 /* UIColor+HexColor.m */; };
 		4C5C13F71E5D32D4008BB182 /* NetWorkingTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C5C13F61E5D32D4008BB182 /* NetWorkingTool.m */; };
 		4C5C13F91E5D3448008BB182 /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = 4C5C13F81E5D3448008BB182 /* Podfile */; };
+		4C5C13FC1E5D3738008BB182 /* BasicWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C5C13FB1E5D3738008BB182 /* BasicWebViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -66,6 +67,9 @@
 		4C5C13F51E5D32D4008BB182 /* NetWorkingTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NetWorkingTool.h; sourceTree = "<group>"; };
 		4C5C13F61E5D32D4008BB182 /* NetWorkingTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NetWorkingTool.m; sourceTree = "<group>"; };
 		4C5C13F81E5D3448008BB182 /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		4C5C13FA1E5D3738008BB182 /* BasicWebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BasicWebViewController.h; sourceTree = "<group>"; };
+		4C5C13FB1E5D3738008BB182 /* BasicWebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BasicWebViewController.m; sourceTree = "<group>"; };
+		4C5C13FD1E5D3CDC008BB182 /* YangFenPrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YangFenPrefixHeader.pch; sourceTree = "<group>"; };
 		6396EFD72884AD0A58561DE9 /* Pods-YangFenPlatform.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YangFenPlatform.debug.xcconfig"; path = "Pods/Target Support Files/Pods-YangFenPlatform/Pods-YangFenPlatform.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -289,6 +293,7 @@
 		4C5C13C11E5D2A4D008BB182 /* Setting */ = {
 			isa = PBXGroup;
 			children = (
+				4C5C13FD1E5D3CDC008BB182 /* YangFenPrefixHeader.pch */,
 			);
 			path = Setting;
 			sourceTree = "<group>";
@@ -338,6 +343,8 @@
 		4C5C13C61E5D2A4D008BB182 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				4C5C13FA1E5D3738008BB182 /* BasicWebViewController.h */,
+				4C5C13FB1E5D3738008BB182 /* BasicWebViewController.m */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -548,6 +555,7 @@
 				4C5C13CE1E5D2AD8008BB182 /* BasicTabBarController.m in Sources */,
 				4C5C139B1E5D2738008BB182 /* main.m in Sources */,
 				4C5C13D11E5D2AF4008BB182 /* BasicViewController.m in Sources */,
+				4C5C13FC1E5D3738008BB182 /* BasicWebViewController.m in Sources */,
 				4C5C13F71E5D32D4008BB182 /* NetWorkingTool.m in Sources */,
 				4C5C13EB1E5D2F5D008BB182 /* UIImage+Extension.m in Sources */,
 				4C5C13DF1E5D2F12008BB182 /* UIViewController+alvertVC.m in Sources */,
@@ -670,6 +678,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 623ZPWL2RC;
+				GCC_PREFIX_HEADER = YangFenPlatform/Classes/Setting/YangFenPrefixHeader.pch;
 				INFOPLIST_FILE = YangFenPlatform/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.xytxw.YangFenPlatform;
@@ -683,6 +692,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 623ZPWL2RC;
+				GCC_PREFIX_HEADER = YangFenPlatform/Classes/Setting/YangFenPrefixHeader.pch;
 				INFOPLIST_FILE = YangFenPlatform/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.xytxw.YangFenPlatform;

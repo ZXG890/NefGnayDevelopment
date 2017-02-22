@@ -7,6 +7,7 @@
 //
 
 #import "NetWorkingTool.h"
+#import <SVProgressHUD.h>
 
 @implementation NetWorkingTool
 
@@ -37,7 +38,7 @@
     return manager;
 
 }
-+(XMLNetWorkingTool *)shareManager1{
++(NetWorkingTool *)shareImageManager{
 
     static dispatch_once_t onceToken;
     

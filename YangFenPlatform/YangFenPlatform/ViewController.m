@@ -18,9 +18,20 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
     
+    
+    
    
 }
+-(void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event{
+    
+    BasicWebViewController *webVC = [[BasicWebViewController alloc]init];
+    
+    UINavigationController *navVC = [[UINavigationController alloc] initWithRootViewController:webVC];
 
+
+  [self presentViewController:navVC animated:YES completion:nil];
+
+}
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];

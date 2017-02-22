@@ -10,5 +10,5 @@
 #import <AFNetworking.h>
 @interface NetWorkingTool : AFHTTPSessionManager
 +(NetWorkingTool*)shareManager;
-+(NetWorkingTool*)shareManager1;
++(NetWorkingTool*)shareImageManager;
 @end

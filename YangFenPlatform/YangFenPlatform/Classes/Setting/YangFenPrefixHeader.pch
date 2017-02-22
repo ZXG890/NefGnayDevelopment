@@ -1,0 +1,20 @@
+//
+//  YangFenPrefixHeader.pch
+//  
+//
+//  Created by 柴苗苗 on 17/2/22.
+//
+//
+
+#ifndef YangFenPrefixHeader_pch
+#define YangFenPrefixHeader_pch
+
+#import <AFNetworking.h>
+#import <Masonry.h>
+#import <SVProgressHUD.h>
+
+#import "Extensions.h"
+
+#import "BasicWebViewController.h"
+
+#endif /* YangFenPrefixHeader_pch */
