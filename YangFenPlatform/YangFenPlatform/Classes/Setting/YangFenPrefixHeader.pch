@@ -17,4 +17,8 @@
 
 #import "BasicWebViewController.h"
 
+#import "BasicViewController.h"
+
+#import "BasicNavigationController.h"
+
 #endif /* YangFenPrefixHeader_pch */

@@ -27,6 +27,10 @@
 		4C5C13F71E5D32D4008BB182 /* NetWorkingTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C5C13F61E5D32D4008BB182 /* NetWorkingTool.m */; };
 		4C5C13F91E5D3448008BB182 /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = 4C5C13F81E5D3448008BB182 /* Podfile */; };
 		4C5C13FC1E5D3738008BB182 /* BasicWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C5C13FB1E5D3738008BB182 /* BasicWebViewController.m */; };
+		4C5C14001E5D631B008BB182 /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C5C13FF1E5D631B008BB182 /* HomeViewController.m */; };
+		4C5C14071E5D6494008BB182 /* TabBarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C5C14061E5D6494008BB182 /* TabBarViewController.m */; };
+		4C5C140A1E5D64B9008BB182 /* PersonalViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C5C14091E5D64B9008BB182 /* PersonalViewController.m */; };
+		4C5C140D1E5D7DA3008BB182 /* CustomerTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C5C140C1E5D7DA3008BB182 /* CustomerTabBar.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -70,6 +74,14 @@
 		4C5C13FA1E5D3738008BB182 /* BasicWebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BasicWebViewController.h; sourceTree = "<group>"; };
 		4C5C13FB1E5D3738008BB182 /* BasicWebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BasicWebViewController.m; sourceTree = "<group>"; };
 		4C5C13FD1E5D3CDC008BB182 /* YangFenPrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YangFenPrefixHeader.pch; sourceTree = "<group>"; };
+		4C5C13FE1E5D631B008BB182 /* HomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
+		4C5C13FF1E5D631B008BB182 /* HomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
+		4C5C14051E5D6494008BB182 /* TabBarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TabBarViewController.h; sourceTree = "<group>"; };
+		4C5C14061E5D6494008BB182 /* TabBarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TabBarViewController.m; sourceTree = "<group>"; };
+		4C5C14081E5D64B9008BB182 /* PersonalViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PersonalViewController.h; sourceTree = "<group>"; };
+		4C5C14091E5D64B9008BB182 /* PersonalViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PersonalViewController.m; sourceTree = "<group>"; };
+		4C5C140B1E5D7DA3008BB182 /* CustomerTabBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomerTabBar.h; sourceTree = "<group>"; };
+		4C5C140C1E5D7DA3008BB182 /* CustomerTabBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomerTabBar.m; sourceTree = "<group>"; };
 		6396EFD72884AD0A58561DE9 /* Pods-YangFenPlatform.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YangFenPlatform.debug.xcconfig"; path = "Pods/Target Support Files/Pods-YangFenPlatform/Pods-YangFenPlatform.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -149,6 +161,7 @@
 		4C5C13B01E5D2A4D008BB182 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				4C5C14011E5D646D008BB182 /* Tab */,
 				4C5C13B11E5D2A4D008BB182 /* Basic */,
 				4C5C13B51E5D2A4D008BB182 /* Home */,
 				4C5C13B91E5D2A4D008BB182 /* Login */,
@@ -210,6 +223,8 @@
 		4C5C13B61E5D2A4D008BB182 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				4C5C13FE1E5D631B008BB182 /* HomeViewController.h */,
+				4C5C13FF1E5D631B008BB182 /* HomeViewController.m */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -272,6 +287,8 @@
 		4C5C13BE1E5D2A4D008BB182 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				4C5C14081E5D64B9008BB182 /* PersonalViewController.h */,
+				4C5C14091E5D64B9008BB182 /* PersonalViewController.m */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -420,6 +437,41 @@
 			path = Untils;
 			sourceTree = "<group>";
 		};
+		4C5C14011E5D646D008BB182 /* Tab */ = {
+			isa = PBXGroup;
+			children = (
+				4C5C14021E5D646D008BB182 /* controller */,
+				4C5C14031E5D646D008BB182 /* model */,
+				4C5C14041E5D646D008BB182 /* view */,
+			);
+			path = Tab;
+			sourceTree = "<group>";
+		};
+		4C5C14021E5D646D008BB182 /* controller */ = {
+			isa = PBXGroup;
+			children = (
+				4C5C14051E5D6494008BB182 /* TabBarViewController.h */,
+				4C5C14061E5D6494008BB182 /* TabBarViewController.m */,
+			);
+			path = controller;
+			sourceTree = "<group>";
+		};
+		4C5C14031E5D646D008BB182 /* model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = model;
+			sourceTree = "<group>";
+		};
+		4C5C14041E5D646D008BB182 /* view */ = {
+			isa = PBXGroup;
+			children = (
+				4C5C140B1E5D7DA3008BB182 /* CustomerTabBar.h */,
+				4C5C140C1E5D7DA3008BB182 /* CustomerTabBar.m */,
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -544,13 +596,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4C5C140A1E5D64B9008BB182 /* PersonalViewController.m in Sources */,
 				4C5C13CB1E5D2A91008BB182 /* BasicNavigationController.m in Sources */,
 				4C5C13E51E5D2F1E008BB182 /* NSString+RandomStr.m in Sources */,
+				4C5C14071E5D6494008BB182 /* TabBarViewController.m in Sources */,
 				4C5C13F41E5D30D1008BB182 /* UIColor+HexColor.m in Sources */,
 				4C5C13A11E5D2738008BB182 /* ViewController.m in Sources */,
 				4C5C13E81E5D2F31008BB182 /* UIImage+color.m in Sources */,
 				4C5C13E41E5D2F1E008BB182 /* NSString+MD5.m in Sources */,
+				4C5C140D1E5D7DA3008BB182 /* CustomerTabBar.m in Sources */,
 				4C5C139E1E5D2738008BB182 /* AppDelegate.m in Sources */,
+				4C5C14001E5D631B008BB182 /* HomeViewController.m in Sources */,
 				4C5C13EE1E5D2F70008BB182 /* UIView+Utils.m in Sources */,
 				4C5C13CE1E5D2AD8008BB182 /* BasicTabBarController.m in Sources */,
 				4C5C139B1E5D2738008BB182 /* main.m in Sources */,

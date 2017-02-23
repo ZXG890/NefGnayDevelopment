@@ -7,7 +7,7 @@
 //
 
 #import "ViewController.h"
-
+#import "TabBarViewController.h"
 @interface ViewController ()
 
 @end
@@ -20,16 +20,21 @@
     
     
     
+    
    
 }
 -(void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event{
     
-    BasicWebViewController *webVC = [[BasicWebViewController alloc]init];
+//    BasicWebViewController *webVC = [[BasicWebViewController alloc]init];
+//    
+//    UINavigationController *navVC = [[UINavigationController alloc] initWithRootViewController:webVC];
+//
+//
+//  [self presentViewController:navVC animated:YES completion:nil];
+//    
+    TabBarViewController *tabVC = [TabBarViewController new];
     
-    UINavigationController *navVC = [[UINavigationController alloc] initWithRootViewController:webVC];
-
-
-  [self presentViewController:navVC animated:YES completion:nil];
+    [self presentViewController:tabVC animated:YES completion:nil];
 
 }
 
