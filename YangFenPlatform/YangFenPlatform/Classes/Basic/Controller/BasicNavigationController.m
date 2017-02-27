@@ -20,9 +20,11 @@
     
     UINavigationBar *navBar = [UINavigationBar appearance];
     
-    [navBar setBarTintColor:[UIColor redColor]];
+    [navBar setBarTintColor:[UIColor colorWithHex:0xa11c17]];
     
-    [navBar setTintColor:[UIColor yellowColor]];
+    [navBar setTintColor:[UIColor colorWithHex:0xffffff]];
+    
+    navBar.titleTextAttributes = @{NSFontAttributeName:[UIFont systemFontOfSize:20],NSForegroundColorAttributeName:[UIColor colorWithHex:0xffffff]};
     
 }
 

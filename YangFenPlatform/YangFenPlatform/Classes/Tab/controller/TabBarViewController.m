@@ -8,6 +8,9 @@
 
 #import "TabBarViewController.h"
 #import "HomeViewController.h"
+#import "SuperStoreViewController.h"
+#import "StarViewController.h"
+#import "FenBarViewController.h"
 #import "PersonalViewController.h"
 #import "CustomerTabBar.h"
 @interface TabBarViewController ()
@@ -27,32 +30,32 @@
     
 }
 -(void)setTabbar{
+//    
+//    CustomerTabBar *tabar = [[CustomerTabBar alloc] init];
+//    
+//    tabar.plusBlock = ^{
+//    
+//        NSLog(@"点击了");
+//    
+//    };
+//    
+//    [self setValue:tabar forKey:@"tabBar"];
     
-    CustomerTabBar *tabar = [[CustomerTabBar alloc] init];
-    
-    tabar.plusBlock = ^{
-    
-        NSLog(@"点击了");
-    
-    };
-    
-    [self setValue:tabar forKey:@"tabBar"];
-    
-    
-
     UITabBar *tabbar = [UITabBar appearance];
     
-    [tabbar setTintColor:[UIColor purpleColor]];
+    [tabbar setTintColor:[UIColor colorWithHex:0xa11c17]];
     
-    [tabbar setBarTintColor:[UIColor orangeColor]];
+    [tabbar setBarTintColor:[UIColor whiteColor]];
     
-    [tabbar setUnselectedItemTintColor:[UIColor whiteColor]];
+    [tabbar setUnselectedItemTintColor:[UIColor colorWithHex:0x666666]];
 
 
 }
 -(void)setupChildViewController{
 
-    self.controllerNameArray = @[@"HomeViewController",@"PersonalViewController"];
+    self.controllerNameArray = @[@"HomeViewController",@"SuperStoreViewController",@"StarViewController",@"FenBarViewController",@"PersonalViewController"];
+    
+    NSDictionary *nameDic = @{@"Home":@"首页",@"SuperStore":@"商城",@"Star":@"明星",@"FenBar":@"粉Pa",@"Personal":@"我的"};
     
     NSMutableArray *controllers = [NSMutableArray arrayWithCapacity:10];
     
@@ -62,7 +65,10 @@
         
         BasicNavigationController *navVC = [[BasicNavigationController alloc] initWithRootViewController:vc];
         
-        navVC.tabBarItem = [[UITabBarItem alloc] initWithTitle:[NSString stringWithFormat:@"控制器%@",@"123"] image:nil selectedImage:nil];
+        NSString *imageName = [VCClassName substringWithRange:NSMakeRange(0, VCClassName.length-[VCClassName rangeOfString:@"ViewController"].length)];
+        
+        navVC.tabBarItem = [[UITabBarItem alloc]initWithTitle:nameDic[imageName] image:[UIImage imageNamed:[NSString stringWithFormat:@"%@-",imageName]] selectedImage:[UIImage imageNamed:imageName]];
+        
         
         [controllers addObject:navVC];
     }

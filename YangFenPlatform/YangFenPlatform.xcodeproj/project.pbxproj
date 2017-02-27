@@ -8,6 +8,14 @@
 
 /* Begin PBXBuildFile section */
 		475D88FCBA0F5A5A2914DF29 /* libPods-YangFenPlatform.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2140510E04EF132C779CA9DB /* libPods-YangFenPlatform.a */; };
+		4C12D0401E5FD74000E09ABB /* HomeCollectionViewFlowout.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C12D03F1E5FD74000E09ABB /* HomeCollectionViewFlowout.m */; };
+		4C12D0461E5FE23C00E09ABB /* HomeScanyDisplayView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C12D0451E5FE23C00E09ABB /* HomeScanyDisplayView.m */; };
+		4C12D0551E600EEA00E09ABB /* SuperStoreViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C12D0541E600EEA00E09ABB /* SuperStoreViewController.m */; };
+		4C12D0581E600EF900E09ABB /* StarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C12D0571E600EF900E09ABB /* StarViewController.m */; };
+		4C12D05B1E600F0600E09ABB /* FenBarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C12D05A1E600F0600E09ABB /* FenBarViewController.m */; };
+		4C12D05E1E601FF000E09ABB /* PersonalTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C12D05D1E601FF000E09ABB /* PersonalTableView.m */; };
+		4C12D0611E602C8400E09ABB /* TableHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C12D0601E602C8400E09ABB /* TableHeaderView.m */; };
+		4C12D0631E602CAC00E09ABB /* TableHeaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4C12D0621E602CAC00E09ABB /* TableHeaderView.xib */; };
 		4C5C139B1E5D2738008BB182 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C5C139A1E5D2738008BB182 /* main.m */; };
 		4C5C139E1E5D2738008BB182 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C5C139D1E5D2738008BB182 /* AppDelegate.m */; };
 		4C5C13A11E5D2738008BB182 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C5C13A01E5D2738008BB182 /* ViewController.m */; };
@@ -31,11 +39,29 @@
 		4C5C14071E5D6494008BB182 /* TabBarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C5C14061E5D6494008BB182 /* TabBarViewController.m */; };
 		4C5C140A1E5D64B9008BB182 /* PersonalViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C5C14091E5D64B9008BB182 /* PersonalViewController.m */; };
 		4C5C140D1E5D7DA3008BB182 /* CustomerTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C5C140C1E5D7DA3008BB182 /* CustomerTabBar.m */; };
+		4C5C14141E5E8E94008BB182 /* HomeCollcetionView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C5C14131E5E8E94008BB182 /* HomeCollcetionView.m */; };
+		4C5C14181E5EBD5D008BB182 /* HomeCollectionCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C5C14161E5EBD5D008BB182 /* HomeCollectionCell.m */; };
+		4C5C14191E5EBD5D008BB182 /* HomeCollectionCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4C5C14171E5EBD5D008BB182 /* HomeCollectionCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		174E198B516EC35AE789338A /* Pods-YangFenPlatform.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YangFenPlatform.release.xcconfig"; path = "Pods/Target Support Files/Pods-YangFenPlatform/Pods-YangFenPlatform.release.xcconfig"; sourceTree = "<group>"; };
 		2140510E04EF132C779CA9DB /* libPods-YangFenPlatform.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-YangFenPlatform.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4C12D03E1E5FD74000E09ABB /* HomeCollectionViewFlowout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeCollectionViewFlowout.h; sourceTree = "<group>"; };
+		4C12D03F1E5FD74000E09ABB /* HomeCollectionViewFlowout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeCollectionViewFlowout.m; sourceTree = "<group>"; };
+		4C12D0441E5FE23C00E09ABB /* HomeScanyDisplayView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeScanyDisplayView.h; sourceTree = "<group>"; };
+		4C12D0451E5FE23C00E09ABB /* HomeScanyDisplayView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeScanyDisplayView.m; sourceTree = "<group>"; };
+		4C12D0531E600EEA00E09ABB /* SuperStoreViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SuperStoreViewController.h; sourceTree = "<group>"; };
+		4C12D0541E600EEA00E09ABB /* SuperStoreViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SuperStoreViewController.m; sourceTree = "<group>"; };
+		4C12D0561E600EF900E09ABB /* StarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StarViewController.h; sourceTree = "<group>"; };
+		4C12D0571E600EF900E09ABB /* StarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StarViewController.m; sourceTree = "<group>"; };
+		4C12D0591E600F0600E09ABB /* FenBarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FenBarViewController.h; sourceTree = "<group>"; };
+		4C12D05A1E600F0600E09ABB /* FenBarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FenBarViewController.m; sourceTree = "<group>"; };
+		4C12D05C1E601FF000E09ABB /* PersonalTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PersonalTableView.h; sourceTree = "<group>"; };
+		4C12D05D1E601FF000E09ABB /* PersonalTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PersonalTableView.m; sourceTree = "<group>"; };
+		4C12D05F1E602C8400E09ABB /* TableHeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableHeaderView.h; sourceTree = "<group>"; };
+		4C12D0601E602C8400E09ABB /* TableHeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableHeaderView.m; sourceTree = "<group>"; };
+		4C12D0621E602CAC00E09ABB /* TableHeaderView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TableHeaderView.xib; sourceTree = "<group>"; };
 		4C5C13961E5D2738008BB182 /* YangFenPlatform.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YangFenPlatform.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4C5C139A1E5D2738008BB182 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		4C5C139C1E5D2738008BB182 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -82,6 +108,11 @@
 		4C5C14091E5D64B9008BB182 /* PersonalViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PersonalViewController.m; sourceTree = "<group>"; };
 		4C5C140B1E5D7DA3008BB182 /* CustomerTabBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomerTabBar.h; sourceTree = "<group>"; };
 		4C5C140C1E5D7DA3008BB182 /* CustomerTabBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomerTabBar.m; sourceTree = "<group>"; };
+		4C5C14121E5E8E94008BB182 /* HomeCollcetionView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeCollcetionView.h; sourceTree = "<group>"; };
+		4C5C14131E5E8E94008BB182 /* HomeCollcetionView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeCollcetionView.m; sourceTree = "<group>"; };
+		4C5C14151E5EBD5D008BB182 /* HomeCollectionCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeCollectionCell.h; sourceTree = "<group>"; };
+		4C5C14161E5EBD5D008BB182 /* HomeCollectionCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeCollectionCell.m; sourceTree = "<group>"; };
+		4C5C14171E5EBD5D008BB182 /* HomeCollectionCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HomeCollectionCell.xib; sourceTree = "<group>"; };
 		6396EFD72884AD0A58561DE9 /* Pods-YangFenPlatform.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YangFenPlatform.debug.xcconfig"; path = "Pods/Target Support Files/Pods-YangFenPlatform/Pods-YangFenPlatform.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -112,6 +143,105 @@
 				2140510E04EF132C779CA9DB /* libPods-YangFenPlatform.a */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4C12D0471E600EB300E09ABB /* SuperStore */ = {
+			isa = PBXGroup;
+			children = (
+				4C12D0481E600EB300E09ABB /* controller */,
+				4C12D0491E600EB300E09ABB /* model */,
+				4C12D04A1E600EB300E09ABB /* view */,
+			);
+			path = SuperStore;
+			sourceTree = "<group>";
+		};
+		4C12D0481E600EB300E09ABB /* controller */ = {
+			isa = PBXGroup;
+			children = (
+				4C12D0531E600EEA00E09ABB /* SuperStoreViewController.h */,
+				4C12D0541E600EEA00E09ABB /* SuperStoreViewController.m */,
+			);
+			path = controller;
+			sourceTree = "<group>";
+		};
+		4C12D0491E600EB300E09ABB /* model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = model;
+			sourceTree = "<group>";
+		};
+		4C12D04A1E600EB300E09ABB /* view */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+		4C12D04B1E600EB300E09ABB /* Star */ = {
+			isa = PBXGroup;
+			children = (
+				4C12D04C1E600EB300E09ABB /* controller */,
+				4C12D04D1E600EB300E09ABB /* model */,
+				4C12D04E1E600EB300E09ABB /* view */,
+			);
+			path = Star;
+			sourceTree = "<group>";
+		};
+		4C12D04C1E600EB300E09ABB /* controller */ = {
+			isa = PBXGroup;
+			children = (
+				4C12D0561E600EF900E09ABB /* StarViewController.h */,
+				4C12D0571E600EF900E09ABB /* StarViewController.m */,
+			);
+			path = controller;
+			sourceTree = "<group>";
+		};
+		4C12D04D1E600EB300E09ABB /* model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = model;
+			sourceTree = "<group>";
+		};
+		4C12D04E1E600EB300E09ABB /* view */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+		4C12D04F1E600EB300E09ABB /* FenBar */ = {
+			isa = PBXGroup;
+			children = (
+				4C12D0501E600EB300E09ABB /* controller */,
+				4C12D0511E600EB300E09ABB /* model */,
+				4C12D0521E600EB300E09ABB /* view */,
+			);
+			path = FenBar;
+			sourceTree = "<group>";
+		};
+		4C12D0501E600EB300E09ABB /* controller */ = {
+			isa = PBXGroup;
+			children = (
+				4C12D0591E600F0600E09ABB /* FenBarViewController.h */,
+				4C12D05A1E600F0600E09ABB /* FenBarViewController.m */,
+			);
+			path = controller;
+			sourceTree = "<group>";
+		};
+		4C12D0511E600EB300E09ABB /* model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = model;
+			sourceTree = "<group>";
+		};
+		4C12D0521E600EB300E09ABB /* view */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = view;
 			sourceTree = "<group>";
 		};
 		4C5C138D1E5D2738008BB182 = {
@@ -161,6 +291,9 @@
 		4C5C13B01E5D2A4D008BB182 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				4C12D0471E600EB300E09ABB /* SuperStore */,
+				4C12D04B1E600EB300E09ABB /* Star */,
+				4C12D04F1E600EB300E09ABB /* FenBar */,
 				4C5C14011E5D646D008BB182 /* Tab */,
 				4C5C13B11E5D2A4D008BB182 /* Basic */,
 				4C5C13B51E5D2A4D008BB182 /* Home */,
@@ -239,6 +372,15 @@
 		4C5C13B81E5D2A4D008BB182 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				4C5C14121E5E8E94008BB182 /* HomeCollcetionView.h */,
+				4C5C14131E5E8E94008BB182 /* HomeCollcetionView.m */,
+				4C12D03E1E5FD74000E09ABB /* HomeCollectionViewFlowout.h */,
+				4C12D03F1E5FD74000E09ABB /* HomeCollectionViewFlowout.m */,
+				4C5C14151E5EBD5D008BB182 /* HomeCollectionCell.h */,
+				4C5C14161E5EBD5D008BB182 /* HomeCollectionCell.m */,
+				4C5C14171E5EBD5D008BB182 /* HomeCollectionCell.xib */,
+				4C12D0441E5FE23C00E09ABB /* HomeScanyDisplayView.h */,
+				4C12D0451E5FE23C00E09ABB /* HomeScanyDisplayView.m */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -303,6 +445,11 @@
 		4C5C13C01E5D2A4D008BB182 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				4C12D05C1E601FF000E09ABB /* PersonalTableView.h */,
+				4C12D05D1E601FF000E09ABB /* PersonalTableView.m */,
+				4C12D05F1E602C8400E09ABB /* TableHeaderView.h */,
+				4C12D0601E602C8400E09ABB /* TableHeaderView.m */,
+				4C12D0621E602CAC00E09ABB /* TableHeaderView.xib */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -535,8 +682,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				4C5C13A91E5D2738008BB182 /* LaunchScreen.storyboard in Resources */,
+				4C5C14191E5EBD5D008BB182 /* HomeCollectionCell.xib in Resources */,
 				4C5C13A61E5D2738008BB182 /* Assets.xcassets in Resources */,
 				4C5C13F91E5D3448008BB182 /* Podfile in Resources */,
+				4C12D0631E602CAC00E09ABB /* TableHeaderView.xib in Resources */,
 				4C5C13A41E5D2738008BB182 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -597,12 +746,19 @@
 			buildActionMask = 2147483647;
 			files = (
 				4C5C140A1E5D64B9008BB182 /* PersonalViewController.m in Sources */,
+				4C12D0581E600EF900E09ABB /* StarViewController.m in Sources */,
+				4C12D05E1E601FF000E09ABB /* PersonalTableView.m in Sources */,
 				4C5C13CB1E5D2A91008BB182 /* BasicNavigationController.m in Sources */,
+				4C12D0401E5FD74000E09ABB /* HomeCollectionViewFlowout.m in Sources */,
 				4C5C13E51E5D2F1E008BB182 /* NSString+RandomStr.m in Sources */,
 				4C5C14071E5D6494008BB182 /* TabBarViewController.m in Sources */,
+				4C5C14181E5EBD5D008BB182 /* HomeCollectionCell.m in Sources */,
+				4C12D0611E602C8400E09ABB /* TableHeaderView.m in Sources */,
 				4C5C13F41E5D30D1008BB182 /* UIColor+HexColor.m in Sources */,
 				4C5C13A11E5D2738008BB182 /* ViewController.m in Sources */,
+				4C12D0551E600EEA00E09ABB /* SuperStoreViewController.m in Sources */,
 				4C5C13E81E5D2F31008BB182 /* UIImage+color.m in Sources */,
+				4C5C14141E5E8E94008BB182 /* HomeCollcetionView.m in Sources */,
 				4C5C13E41E5D2F1E008BB182 /* NSString+MD5.m in Sources */,
 				4C5C140D1E5D7DA3008BB182 /* CustomerTabBar.m in Sources */,
 				4C5C139E1E5D2738008BB182 /* AppDelegate.m in Sources */,
@@ -613,7 +769,9 @@
 				4C5C13D11E5D2AF4008BB182 /* BasicViewController.m in Sources */,
 				4C5C13FC1E5D3738008BB182 /* BasicWebViewController.m in Sources */,
 				4C5C13F71E5D32D4008BB182 /* NetWorkingTool.m in Sources */,
+				4C12D05B1E600F0600E09ABB /* FenBarViewController.m in Sources */,
 				4C5C13EB1E5D2F5D008BB182 /* UIImage+Extension.m in Sources */,
+				4C12D0461E5FE23C00E09ABB /* HomeScanyDisplayView.m in Sources */,
 				4C5C13DF1E5D2F12008BB182 /* UIViewController+alvertVC.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
